@@ -4,8 +4,21 @@ body {
     flex-direction: column;
 }
 
+.flex {
+    display: flex;
+}
+
 .row {
     flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.centered {
+    align-items: center;
+    justify-content: center;
 }
 
 h1, h2, h3, h4, h5, p {
@@ -14,5 +27,5 @@ h1, h2, h3, h4, h5, p {
 
 iframe {
     color: blue;
-    padding: 4vw;
+    padding: 4vw 25vw;
 }
